@@ -1,0 +1,25 @@
+:root {
+  --apex-color: #fff;
+  --base-color: #000;
+  --base-lighten-1: #c7c7c7;
+}
+
+* {
+  font-family: "Space Mono", monospace;
+}
+
+.bg-apex {
+  background-color: var(--apex-color);
+}
+
+.bg-base {
+  background-color: var(--base-color);
+}
+
+.text-base-lighten-1 {
+  color: var(--base-lighten-1);
+}
+
+.h-screen {
+  height: 100vh;
+}
