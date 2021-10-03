@@ -23,3 +23,69 @@
 .h-screen {
   height: 100vh;
 }
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+  .text-md-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .text-md-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .text-md-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .text-md-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .text-md-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
