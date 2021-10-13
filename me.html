@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact-page</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .me {
+        padding-top: 200px;
+        min-height: 100vh;
+      }
+
+      .me__image-placeholder {
+        background-color: #eee;
+        height: 500px;
+        width: 100%;
+      }
+
+      .me__cta-heading {
+        font-weight: 600;
+        font-size: 20px;
+        padding-top: 40px;
+      }
+
+      @media screen and (min-width: 768px) {
+        .me__image-placeholder {
+          width: 90%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <my-header></my-header>
+
+    <section class="me text-white bg-base pb-5">
+      <div class="container">
+        <div class="row col-md-10 mx-auto">
+          <div class="col-md-6">
+            <div class="me__image-placeholder"></div>
+
+            <h3 class="me__cta-heading">Contact</h3>
+
+            <a
+              href="mailto:ikenna.ezeani@yahoo.com"
+              class="text-white d-inline-block"
+            >
+              ikenna.ezeani@yahoo.com
+            </a>
+
+            <h3 class="me__cta-heading">Follow Me</h3>
+
+            <div class="d-flex">
+              <a
+                href="https://linkedin.com/in/iykeevans"
+                target="_blank"
+                class="me-3"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M19 3C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19ZM18.5 18.5V13.2C18.5 12.3354 18.1565 11.5062 17.5452 10.8948C16.9338 10.2835 16.1046 9.94 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17C14.6813 12.17 15.0374 12.3175 15.2999 12.5801C15.5625 12.8426 15.71 13.1987 15.71 13.57V18.5H18.5ZM6.88 8.56C7.32556 8.56 7.75288 8.383 8.06794 8.06794C8.383 7.75288 8.56 7.32556 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19C6.43178 5.19 6.00193 5.36805 5.68499 5.68499C5.36805 6.00193 5.19 6.43178 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56ZM8.27 18.5V10.13H5.5V18.5H8.27Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+
+              <a href="https://github.com/iykeevans" target="_blank">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M11.9995 0.956787C5.74695 0.956787 0.676758 6.02585 0.676758 12.2795C0.676758 17.2824 3.92107 21.5265 8.41995 23.0238C8.98563 23.1288 9.19338 22.7782 9.19338 22.4792C9.19338 22.2092 9.18288 21.3172 9.17801 20.3711C6.02801 21.056 5.36332 19.0352 5.36332 19.0352C4.84826 17.7264 4.10613 17.3784 4.10613 17.3784C3.07863 16.6757 4.18357 16.6903 4.18357 16.6903C5.32038 16.77 5.91926 17.8571 5.91926 17.8571C6.92913 19.5877 8.56807 19.0875 9.2142 18.7984C9.31582 18.0665 9.60926 17.5669 9.93307 17.2841C7.41813 16.9982 4.7742 16.0271 4.7742 11.6885C4.7742 10.4523 5.2167 9.44229 5.94101 8.64916C5.82326 8.36416 5.4357 7.21254 6.05051 5.65291C6.05051 5.65291 7.00113 5.3486 9.16488 6.81354C10.0683 6.56247 11.0371 6.43629 11.9995 6.43197C12.9614 6.43629 13.9308 6.5621 14.8358 6.81316C16.9969 5.34822 17.9464 5.65254 17.9464 5.65254C18.5628 7.21197 18.1752 8.36379 18.0576 8.64879C18.7836 9.44191 19.2229 10.452 19.2229 11.6882C19.2229 16.037 16.5741 16.9944 14.0528 17.2749C14.4591 17.6263 14.821 18.3155 14.821 19.3717C14.821 20.8867 14.8079 22.106 14.8079 22.479C14.8079 22.7803 15.0119 23.1334 15.5856 23.0222C20.0819 21.5233 23.3224 17.2805 23.3224 12.2795C23.3223 6.02622 18.2526 0.956975 11.9995 0.956975V0.956787Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M4.96555 17.2136C4.94061 17.2699 4.85211 17.2868 4.77149 17.2483C4.68899 17.2116 4.64305 17.1349 4.66968 17.0785C4.69405 17.0203 4.78274 17.0044 4.86468 17.0432C4.94718 17.0801 4.99405 17.1576 4.96536 17.2138L4.96555 17.2136ZM5.42418 17.7253C5.37036 17.7754 5.2648 17.7521 5.19318 17.6728C5.11893 17.5941 5.10505 17.4885 5.15999 17.4377C5.21586 17.3878 5.31824 17.4115 5.39249 17.4902C5.46636 17.5701 5.48099 17.6747 5.42436 17.7255L5.42418 17.7253ZM5.8708 18.3773C5.80142 18.4256 5.6878 18.3805 5.61767 18.2798C5.5483 18.1789 5.5483 18.058 5.61955 18.0098C5.68949 17.9614 5.80142 18.0051 5.87267 18.1048C5.94167 18.207 5.94167 18.328 5.8708 18.3771V18.3773ZM6.48224 19.0075C6.42036 19.0759 6.28799 19.0575 6.19124 18.9643C6.09242 18.873 6.06486 18.7431 6.12692 18.6748C6.18992 18.6062 6.32286 18.6253 6.42017 18.718C6.51899 18.8091 6.5488 18.9392 6.48261 19.0073L6.48224 19.0075ZM7.32599 19.3733C7.29842 19.462 7.1713 19.5023 7.04286 19.4644C6.9148 19.4256 6.83099 19.3219 6.85724 19.2323C6.88349 19.1428 7.01155 19.101 7.14074 19.1413C7.2688 19.18 7.35261 19.2831 7.32599 19.3733ZM8.2528 19.441C8.25599 19.5343 8.14724 19.6116 8.0128 19.6135C7.87724 19.6166 7.76755 19.5409 7.76624 19.449C7.76624 19.3547 7.87274 19.2784 8.00811 19.2758C8.14255 19.2733 8.25299 19.3483 8.25299 19.4408L8.2528 19.441ZM9.11492 19.2943C9.13105 19.3853 9.03749 19.4788 8.9038 19.5038C8.77255 19.5281 8.65067 19.4715 8.6338 19.3813C8.61767 19.288 8.71292 19.1944 8.84417 19.1702C8.97805 19.1471 9.09805 19.2021 9.11492 19.2945V19.2943Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6" style="padding-top: 5rem">
+            <p class="m-0">
+              While working at Scelloo I was paired with a colleague to build a
+              human resource management system. I was responsible for coding the
+              new design provided by the UI/UX Engineers and implementation of
+              new features. In order to effectively and efficiently handle this
+              task, I built custom components which were used extensively in the
+              app. This cut down development time by 20% and helped facilate
+              consistency throughout the app.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- scripts happen here -->
+    <script type="module">
+      import "./components/my-header.js";
+    </script>
+  </body>
+</html>
